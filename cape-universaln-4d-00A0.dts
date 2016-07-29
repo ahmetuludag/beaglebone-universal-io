@@ -22,7 +22,7 @@
     compatible = "ti,beaglebone", "ti,beaglebone-black";
 
     /* identification */
-    part-number = "cape-bone-universal";
+    part-number = "cape-universal-4d";
     version = "00A0";
 
     /* state the resources this cape uses */
@@ -929,7 +929,7 @@
             // !!!WARNING!!!
             // gpio-of-helper &gpio pointers are off-by-one vs. the hardware:
             //   hardware GPIO bank 0 = &gpio1
-            cape-universal {
+            cape-universal-4d {
                 compatible = "gpio-of-helper";
                 status = "okay";
                 pinctrl-names = "default";
